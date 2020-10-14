@@ -18,6 +18,6 @@ public class Main {
             mirror = mirror * 10 + (value % 10);
             value = value / 10;
         }
-        System.out.print("Введите обраную последовательность цифр: " + mirror);*/
+        System.out.print("Введите обраную последовательность цифр: " + mirror);*///
     }
 }
