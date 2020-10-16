@@ -33,20 +33,14 @@ public class Main {
         // 4. Enter integers as command-line arguments, calculate their sums (products), and output
         // the result to the console.
         /*
-        Scanner input = new Scanner (System.in);
-        System.out.print("Input the first number: ");
-        int num1 = input.nextInt();
-        System.out.print("Input the second number: ");
-        int num2 = input.nextInt();
-        int sum = num1 * num2;
-        //int sum = num1 + num2;
-        System.out.println();
-        System.out.println("Sum: "+sum);             */
-
-        //5. Enter a number from 1 to 12. Display the name of the month corresponding to this date on the console.
-        // Perform a check of the correctness of entering numbers.
-
-
+        int sum = 0;
+        int comp = 1;
+        for (int i = 0; i < args.length; i++) {
+            sum += Integer.parseInt(args[i]);
+            comp *= Integer.parseInt(args[i]);
+        }
+        System.out.println(sum);
+        System.out.println(comp);             */
 
     }
 }
