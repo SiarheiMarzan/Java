@@ -40,7 +40,7 @@ public class Main {
             comp *= Integer.parseInt(args[i]);
         }
         System.out.println(sum);
-        System.out.println(comp);             */
+        System.out.println(comp);           */
 
     }
 }
