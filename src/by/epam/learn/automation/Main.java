@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        /*//1. Greet any user when entering their name through the command line.
+
+      /* //1. Greet any user when entering their name through the command line.
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
         System.out.println("Hello " + name); */
@@ -20,15 +21,32 @@ public class Main {
             mirror = mirror * 10 + (value % 10);
             value = value / 10;
         }
-        System.out.print("Enter the reverse sequence of numbers: " + mirror);*/
+        System.out.print("Enter the reverse sequence of numbers: " + mirror);   */
+
         // 3. Print the specified number of random numbers with or without a new line transition.
-       /* int[] a = {1, 2, 3, 4, 5};
+        /*int[] a = {1, 2, 3, 4, 5};
         for (int i : a) {
             System.out.println(i);
             System.out.print(i);
-        }  */
+        }              */
+
         // 4. Enter integers as command-line arguments, calculate their sums (products), and output
         // the result to the console.
+        /*
+        Scanner input = new Scanner (System.in);
+        System.out.print("Input the first number: ");
+        int num1 = input.nextInt();
+        System.out.print("Input the second number: ");
+        int num2 = input.nextInt();
+        int sum = num1 * num2;
+        //int sum = num1 + num2;
+        System.out.println();
+        System.out.println("Sum: "+sum);             */
+
+        //5. Enter a number from 1 to 12. Display the name of the month corresponding to this date on the console.
+        // Perform a check of the correctness of entering numbers.
+
+
 
     }
 }
