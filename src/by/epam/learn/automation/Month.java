@@ -1,7 +1,8 @@
-package by.epam.learn.automation;
-
 //5. Enter a number from 1 to 12. Display the name of the month corresponding to this date on the console.
 // Perform a check of the correctness of entering numbers.
+
+package by.epam.learn.automation;
+
 import java.util.Scanner;
 
 public class Month {
