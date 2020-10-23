@@ -1,4 +1,4 @@
-//2.Display command-line arguments in the console window in reverse order.
+//Main task.2.Display command-line arguments in the console window in reverse order.
 
 package by.epam.learn.automation;
 
@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Display {
     public static void main(String[] args) {
-        //2. Display command line arguments in reverse order in a console window.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a sequence of numbers: ");
         int value = scanner.nextInt();

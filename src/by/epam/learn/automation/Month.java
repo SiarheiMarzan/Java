@@ -1,4 +1,4 @@
-//5. Enter a number from 1 to 12. Display the name of the month corresponding to this date on the console.
+//Main task.5. Enter a number from 1 to 12. Display the name of the month corresponding to this date on the console.
 // Perform a check of the correctness of entering numbers.
 
 package by.epam.learn.automation;
@@ -16,7 +16,7 @@ public class Month {
 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("There is no such month");
-    }
+        }
 }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

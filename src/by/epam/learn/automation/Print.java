@@ -1,4 +1,4 @@
-// 3.Print the specified number of random numbers with or without a new line transition
+// Main task.3.Print the specified number of random numbers with or without a new line transition
 
 package by.epam.learn.automation;
 
