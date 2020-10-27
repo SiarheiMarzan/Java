@@ -1,15 +1,13 @@
 package by.epam.learn.tasks;
 
-import java.util.Scanner;
-import java.lang.Math;
-
-public class CalculExpres {
-    public static void main(String[] args) {
-        System.out.println("Input value variables a, b, c: ");
-        Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b = scan.nextInt();
-        int c = scan.nextInt();
+public class CalculExpres33 {
+        public static void main(String[] args) {
+        int a = (int)(Math.random()*(200+1)) - 100;
+            System.out.println(a);
+        int b = (int)(Math.random()*(200+1)) - 100;
+            System.out.println(b);
+        int c = (int)(Math.random()*(200+1)) - 100;
+            System.out.println(c);
 
         if ((a * b == 0) || ((square(b) + 4 * a * c) < 0)) {
             System.out.println("false");
