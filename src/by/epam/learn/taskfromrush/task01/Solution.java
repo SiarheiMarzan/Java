@@ -10,7 +10,7 @@ public class Solution {
         String name = reader.readLine();
         int age1 = Integer.parseInt(reader.readLine());
         int age2 = Integer.parseInt(reader.readLine());
-        System.out.println(name +" через "+ age1+" получает "+ age2 +" лет.");
+        System.out.println(name + " через " + age1 + " получает " + age2 + " лет.");
 
     }
 }
