@@ -21,7 +21,6 @@ public class CalculExpres34 {
             String line = reader.readLine();
             int number = 0;
 
-
             while (line != null) {
                 number++;
                 if (number == 1) {
